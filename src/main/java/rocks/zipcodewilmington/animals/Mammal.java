@@ -10,7 +10,7 @@ import java.util.Date;
  */
 public abstract class Mammal implements Animal {
     private final Integer id;
-    private ArrayList<Food> eatenMeals;
+    public ArrayList<Food> eatenMeals;
     private String name;
     private Date birthDate;
 
